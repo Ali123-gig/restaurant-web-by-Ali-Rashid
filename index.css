@@ -849,7 +849,7 @@ margin-left: 10px;
     }
     .page1{
         grid-area: page1;
-        background: url(/images/slider-image3.jpg);
+        background: url("./images/slider-image3.jpg");
         background-size:100% 90% ,cover;
         background-repeat: no-repeat;
         display: grid;
