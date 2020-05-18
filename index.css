@@ -36,7 +36,7 @@ html{
 }
 .page1{
     grid-area: page1;
-    background: url("./images/slider-image3.jpg");
+    background: url("./images/slider-image2.jpg");
     background-attachment: fixed;
     background-size:100% 120% ,cover;
     display: grid;
@@ -849,7 +849,7 @@ margin-left: 10px;
     }
     .page1{
         grid-area: page1;
-        background: url("./images/slider-image3.jpg");
+        background: url("./images/slider-image2.jpg");
         background-size:100% 90% ,cover;
         background-repeat: no-repeat;
         display: grid;
@@ -898,12 +898,25 @@ margin-left: 10px;
         .center{
             /* background: red; */
             display: grid;
-            grid-template-rows: 10fr 5fr 10fr 20fr 45fr;
+            grid-template-rows: 20fr 10fr 10fr 60fr ;
             grid-template-areas: 
                                 "gap"
                                 "para"
                                 "head"
-                                 "btn";
+                                "btn";
                                  
+        }
+        .head>h1{
+            color: #ffffff;
+            font-size: 3.2rem;
+            font-family: var(--headingfont);
+        }
+       
+    }
+    @media only screen and (max-width: 390px){
+        .head>h1{
+            color: #ffffff;
+            font-size: 2.8rem;
+            font-family: var(--headingfont);
         }
     }
